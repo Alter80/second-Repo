@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{margin: 0;padding: 0;outline: 0;}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000;
+	background: repeat fixed 0 0 #754C4A;
+
+}
+
+.templete{width: 985px;margin: 0 auto;}
+.clear{overflow: hidden;}
+
+.header{}
+.logo {
+  float: left;
+  width: 140px;
+}
+.logo img {
+  float: left;
+  width: 140px;
+  padding-top: 30px;
+}
+.varname{}
+.varname h2 {
+  color: white;
+  font-size: 40px;
+  padding-left: 10px;
+  padding-top: 65px;
+}
+.varname p {
+  color: white;
+  float: right;
+  font-size: 15px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.menu{}
+.menu ul {}
+/*.menu ul{margin: 0;padding: 0;list-style: none;}*/
+.menu ul li{display: block; float: left;}
+.menu ul li a {
+  background: #cdcbcc none repeat scroll 0 0;
+  color: #444;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 14px;
+  padding: 1px 66px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#active{background: #2F2D2E; color: #fff;}
+
+.mySlides {display:none; box-sizing: 100px;}
+
+.wlcome {
+  float: left;
+  padding-left: 580px;
+  width: 370px;
+}
+.wlcome p {
+  font-size: 16px;
+  padding-left: 2px;
+  width: 362px;
+  color: white;
+}
+.wlcome h2 {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+.readmore a {
+  padding-left: 260px;
+  text-decoration: none;
+  color: white;
+}
+.readmore a:hover{
+	color: black;
+}
+
+.slidersection {
+  box-shadow: 0px 0px 0px #333;
+  margin-bottom: 25px;
+  width: 900px;
+  height: 630px;
+}
+
+
+.notice {
+  height: 300px;
+  width: 385px;
+  padding-right: 310px;
+}
+
+.notice h2 {
+	color: white;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.notice ul{
+	color: white;
+}
+.notice ul li{}
+.notice ul li h4{
+	color: white;
+}
+.notice ul li p{}
+.notice ul li a{
+	padding-left: 230px;
+  	text-decoration: none;
+  	color: white;
+}
+
+.notice a:hover{
+	color: black;
+}
+
+.footer{border-top: 1px dashed white;}
+.footer p{
+  float: right;
+  font-size: 10px;
+}
